@@ -13,10 +13,11 @@
             font-family: verdana;
             font-size: 200%
         }
-        p, a{
-          color: grey;
-          font-family: courier;
+        p, a, li{
+          color: black;
+          font-family: verdana;
           font-size: 160%;
+          font-weight: bold;
         }
         .image {
             height: 600px;
@@ -33,32 +34,49 @@
         .imgContainer {
             float: left;
         }
+
+        li {
+            margin: 10px 0;
+        }
+
         </style>
 </head>
 <body>
-<h1>Project 1 Report: The Elevator Interface</h1>
+<h1>Project 2 Report: Personal Magic Mirror</h1>
 <h2>Ryan Perez</h2>
-<p>I chose the elevator at The Carlton House for my presentation. The elevator's control interface was nice to the eyes and had a straighforward design. The only modification I would make on the elevator's control interface would be to swap the alarm and phone buttons with the open and close door buttons. I modeled my touch screen elevator control interface after the carlton's elevator control interface because I really liked their design and I wanted my control interface to simulate interacting with a elevator that has physical buttons.</p>
-<div class = "images">
-    <div class = "imgContainer">
-        <img class = "image" src = "real_elevator.png" alt = "Elevator Diagram">
-    </div>
-    <div class = "imgContainer">
-        <img img class = "image" src = "elevator_real.gif" alt = "Elevator Real Life Gif">
-    </div>
-</div>
-<img class = "diagram" src = "elevator_diagram.jpg" alt = "Elevator Diagram">
-<p>When a floor button(1-5) is pressed, the corresponding buttons light will turn off and it will turn back on and beep when the floor is reached.
-    The four bottom buttons light's never turn off and each make a beep immediately after they are pressed. There is also a floor tracker at the top of the interface so that the user always knows what floor they are on.
-</p>
-<a href = "https://youtube.com/shorts/7eXxk5oo8Mo">Click here to watch the interface in action</a>
+
+<p> Discussion of design and sketch</p>
+
+<h2>Generalized and Health-Related Information</h2>
+
+<ul>
+    <li> <b>Personalized Calendar (Retrieves the calendar data from a calendar based CSV file)</b></li>
+    <li> <b>News Feed (Retrieves the news data from a news based CSV file)</b></li>
+    <li> <b>Clock (Uses the local time)</b></li>
+    <li> <b>Weather (Retrieves the local weather with an API)</b></li>
+    <li> <b>Weight Analysis (Scans the weight using a built in scale, and stores in a CSV file)</b></li>
+</ul>
+
+<h2>Advanced Features</h2>
+
+<ul>
+    <li> <b>Customizable Widget Layout (User can change the location of the widgets after pressing the edit button)</b></li>
+    <li> <b>Customizable LED Light Source (User can change the color of the LED lights by pressing a color on the screen)</b></li>
+</ul>
+
+<p>All of the details from above have been implemented into the processing project</p>
+<p>My mirror was created using processing and simulates what my smart mirror would look like in real life.</p>
+<p>The smart mirror is intended to function through a touch screen interface</p>
+<p>Some things were hard to simulate in processing such as looking at your reflection through the program, and simulating real LED lights.</p>
+
+<a href = "https://youtu.be/dBRN8dZYKVA"> Link for Video<a/>
 
 <div class = "images">
     <div class = "imgContainer">
-        <img class = "image" src="elevator_interface.png" alt="Elevator Interface">
+        <img class = "image" src = "page2.jpg" alt = "Elevator Diagram">
     </div>
     <div class = "imgContainer">
-        <img img class = "image" src="elevator_gif.gif" alt="Elevator Interface GIF">
+        <img img class = "image" src = "page1.jpg" alt = "Elevator Real Life Gif">
     </div>
 </div>
 
